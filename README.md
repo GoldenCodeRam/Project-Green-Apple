@@ -1,5 +1,13 @@
-Project Green Apple 🍏
-=========================
+# Project Green Apple
+
+<p align="center">
+  <img src="logo.svg" width="120">
+</p>
+<p align="center">
+  A Vaccine User Database!
+</p>
+
+--------------------
 
 A Vaccine User Database!
 
