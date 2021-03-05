@@ -1,0 +1,15 @@
+[submodule "middleware"]
+	path = middleware
+	url = https://github.com/HeizRaum/Middleware-Vaccine-Box
+[submodule "server"]
+	path = server
+	url = https://github.com/HeizRaum/Server-Vaccine-Box
+[submodule "cache-server"]
+	path = cache-server
+	url = https://github.com/HeizRaum/Cache-Server-Vaccine-Box
+[submodule "sqlite-server"]
+	path = sqlite-server
+	url = https://github.com/HeizRaum/Sqlite-Server-Vaccine-Box
+[submodule "file-server"]
+	path = file-server
+	url = https://github.com/HeizRaum/File-Server-Vaccine-Box
