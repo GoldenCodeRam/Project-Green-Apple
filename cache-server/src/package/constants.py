@@ -3,3 +3,5 @@ SERVER_PORT = 8080
 
 CACHE_HOST_NAME = "localhost"
 CACHE_SERVER_PORT = 6379
+
+CITY_KEY = "city"

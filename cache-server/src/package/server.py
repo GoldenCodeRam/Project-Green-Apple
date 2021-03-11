@@ -2,12 +2,11 @@ import json
 
 from http.server import BaseHTTPRequestHandler
 from package.cacheDatabase import CacheDatabase
+from constants import CITY_KEY
 
 cache_database = CacheDatabase()
 
 class Server(BaseHTTPRequestHandler):
-  CITY_KEY = "city"
-
   def do_GET(self):
     cityRecords = cache_database.get_records_from_cache()
     cityRecordsJson = json.dumps(cityRecords)
@@ -20,7 +19,7 @@ class Server(BaseHTTPRequestHandler):
 
   def do_POST(self):
     city_post = self._get_json_content_from_http()
-    if city_post.get(self.CITY_KEY) != None:
+    if city_post.get(CITY_KEY) != None:
       cache_database.write_city_record_to_cache(city_post)
 
     self.send_response(200)

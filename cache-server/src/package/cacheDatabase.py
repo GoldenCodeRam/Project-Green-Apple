@@ -22,13 +22,13 @@ class CacheDatabase:
   def write_city_record_to_cache(self, record):
     try:
       record = {
-        "city": record["city"].upper()
+        CITY_KEY: record[CITY_KEY].upper()
       }
     except KeyError:
       print("Incorrect information, not writing to cache.")
       return
 
-    self.redisServer.incr(record["city"])
+    self.redisServer.incr(record[CITY_KEY])
 
 
   def remove_all_records_from_cache(self):
