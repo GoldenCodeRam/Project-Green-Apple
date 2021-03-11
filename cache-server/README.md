@@ -1,4 +1,4 @@
-<h1 align="center">Cache Server</h1>
+<h1 align="center">Cache Server 🍏</h1>
 <p align="center">
   <kbd>
     <img src="https://www.vectorlogo.zone/logos/redis/redis-icon.svg" width="30">
