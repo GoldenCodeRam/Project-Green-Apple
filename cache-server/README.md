@@ -26,6 +26,7 @@ This is the way the server will receive and send information:
   "city": "Bogotá"
 }
 // GET
+// Assuming you've already stored this information in the database.
 {
   "Bogotá": 32,
   "Tunja": 12,
