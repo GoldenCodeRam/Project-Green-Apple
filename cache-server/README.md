@@ -39,4 +39,6 @@ This is the way the server will receive and send information:
 * [x] Generate the Dockerfile file.
 * [x] Test the Dockerfile to see if it works when it is launched.
 * [x] Generate the Dockerfile with a custom port for the launch.
-* [ ] Test if the storing of information still works.
+* [x] Test if the storing of information still works.
+* [x] Test if the sending of information still works.
+* [x] Test if the removal of all of the information still works.
