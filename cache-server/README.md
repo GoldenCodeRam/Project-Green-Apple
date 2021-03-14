@@ -17,6 +17,7 @@
 * [x] Receive the city information, through a HTTP POST request.
 * [x] Save the information into the Redis server.
 * [x] Send the city information from Redis, through a HTTP GET request.
+Done 🎉
 
 This is the way the server will receive and send information:
 
@@ -42,3 +43,4 @@ This is the way the server will receive and send information:
 * [x] Test if the storing of information still works.
 * [x] Test if the sending of information still works.
 * [x] Test if the removal of all of the information still works.
+Done 🎉
