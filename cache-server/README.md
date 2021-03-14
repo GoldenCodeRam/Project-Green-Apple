@@ -12,12 +12,12 @@
 </p>
 
 ## 1. Store information 
-### Tasks
+### Tasks (Done 🎉)
 * [x] Generate the Docker image, storing the Redis server and the Python language.
 * [x] Receive the city information, through a HTTP POST request.
 * [x] Save the information into the Redis server.
 * [x] Send the city information from Redis, through a HTTP GET request.
-Done 🎉
+
 
 This is the way the server will receive and send information:
 
@@ -36,11 +36,11 @@ This is the way the server will receive and send information:
 ```
 
 ## 2. Create the Docker image and put it to work
-### Tasks
+### Tasks (Done 🎉)
 * [x] Generate the Dockerfile file.
 * [x] Test the Dockerfile to see if it works when it is launched.
 * [x] Generate the Dockerfile with a custom port for the launch.
 * [x] Test if the storing of information still works.
 * [x] Test if the sending of information still works.
 * [x] Test if the removal of all of the information still works.
-Done 🎉
+
